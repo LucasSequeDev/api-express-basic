@@ -1,0 +1,21 @@
+{
+  "name": "api-express-basic",
+  "version": "1.0.0",
+  "description": "API REST Basic with Express",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "LucasSequeDev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.1",
+    "express": "4.17.2",
+    "glob": "8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16"
+  }
+}
